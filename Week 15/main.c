@@ -47,7 +47,7 @@ void ReadDataFromFile(Student** pp_head, Student** pp_tail) {
 	fclose(fp);
 }
 
-void rank(Student** pp_head, Student** pp_tail) {
+/*void rank(Student** pp_head, Student** pp_tail) {
 	Student* p1, p2;
 	p1 = p_head;
 	int max = 0, rank = 1;
@@ -58,7 +58,7 @@ void rank(Student** pp_head, Student** pp_tail) {
 		}
 		p1 = p1->next;
 	}
-}
+}*/
 
 int main(void) {
 	Student* p_head = NULL, * p_tail = NULL, * p;
